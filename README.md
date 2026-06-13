@@ -1,19 +1,21 @@
-Resume Screening using NLP & Machine Learning
-Overview
+**Resume Screening using NLP & Machine Learning**
+
+Overview:
 Recruiters often receive hundreds of resumes for a single job opening, making the initial screening process time-consuming and repetitive. This project aims to simplify that process by automatically analyzing resumes, comparing them with a job description, and ranking candidates based on their relevance.
 The application uses Natural Language Processing (NLP) techniques along with Machine Learning to extract meaningful information from resumes, predict the candidate's most suitable job role, and calculate how closely the resume matches the given job description.
 The project is built using Python, Scikit-Learn, and Streamlit, providing an easy-to-use interface for uploading and evaluating multiple resumes at once.
 
-Features
-Upload multiple resumes simultaneously.
-Supports PDF, DOCX, and TXT resume formats.
-Automatic resume text extraction.
-NLP-based text preprocessing and cleaning.
-Resume categorization using a Machine Learning model.
-Job description matching using cosine similarity.
-Candidate ranking based on match score.
-Confidence score for predicted role.
-Interactive web interface built with Streamlit.
+Features:
+
+1) Upload multiple resumes simultaneously.
+2) Supports PDF, DOCX, and TXT resume formats.
+3) Automatic resume text extraction.
+4) NLP-based text preprocessing and cleaning.
+5) Resume categorization using a Machine Learning model.
+6) Job description matching using cosine similarity.
+7) Candidate ranking based on match score.
+8) Confidence score for predicted role.
+9) Interactive web interface built with Streamlit.
 
 How It Works
 1. Resume Parsing
@@ -77,9 +79,14 @@ Tech Stack
 | python-docx  | DOCX text extraction      |
 
 
-Dataset
+Dataset:
+
 The model is trained using a resume dataset containing:
+
 Resume text
+
 Corresponding job categories
+
 Required columns:
+
 Resume_str, Category
